@@ -1,0 +1,92 @@
+body {
+    font-family: Arial;
+    line-height: 1.5;
+    background-color: #9cc0f1;
+    color: #333;
+    margin: 20px;
+}
+h1,h2,h3{
+    color: #3133c0;
+}
+
+.site_nav a {
+    margin-right: 15px;
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.site_nav a:hover {
+    color: #1d6fa5;
+    text-decoration: underline;
+}
+
+.profile-card {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #3498db;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: block;
+    margin: 15px 0;
+}
+
+#about_me {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.site_nav a {
+    margin-right: 15px;
+    font-weight: bold;
+}
+a:hover {
+    color: #1d6fa5;
+    text-decoration: underline;
+}
+a:focus {
+    outline: 2px solid #f39c12;
+    outline-offset: 2px;
+}
+
+table {
+    width: 100%;
+    max-width: 600px;
+    border-collapse: collapse;
+    background: #fff;
+    margin-top: 10px;
+}
+
+th,td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+}
+button {
+    padding: 8px 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+button:focus, input:focus {
+    outline: 2px solid #f39c12;
+}
